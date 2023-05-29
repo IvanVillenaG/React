@@ -1,0 +1,93 @@
+.villagers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.villagers-content {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.villagers-content h1 {
+  margin-bottom: 10px;
+}
+
+.villagers-content p {
+  margin-bottom: 10px;
+}
+
+.villager-card {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+}
+
+
+.villager-card p {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.villager-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.villager-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.villager-buttons-container button {
+  font-size: 14px;
+  color: black;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+.villager-buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.villager-buttons-container button:hover {
+  background-color: lightblue;
+}
+
+.villagers-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.villagers-title h1, h4{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.villagers-title h1, 
+.randomvillager-title  {
+  margin: 0;
+}

@@ -1,0 +1,73 @@
+.random-villagers-container {
+position: absolute;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    top: 250px;
+    left: 750px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-villagers-container h1,
+.random-villagers-container p {
+  margin: 0;
+}
+
+.villager-card {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.randomvillager-title {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.randomvillager-title h1,
+.randomvillager-title p {
+  margin: 0;
+}
+
+.villager-card p {
+  margin: 5px;
+}
+
+.villager-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.villager-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.randomvillager-button button {
+  font-size: 14px;
+  color: black;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.randomvillager-button button:hover {
+  background-color: lightblue;
+}
